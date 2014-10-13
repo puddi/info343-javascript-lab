@@ -1,0 +1,21 @@
+html {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+hr {
+	width: 50%;
+	float: left;
+	clear: both;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	padding: 1em .5em .5em;
+}
+
+div.challenge {
+	clear: both;
+}
