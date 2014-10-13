@@ -7,9 +7,6 @@
 	and alerts the user what the sum is.
 */ 
 
-// click handler
-document.getElementById('additionButton').addEventListener('click', addition);
-
 function addition() {
 	// your code goes here!
 }
@@ -29,8 +26,6 @@ function addition() {
 	then the text should say "That sentence has 1 vowel in it." - 
 	note the lack of plurality on the word vowel.
 */ 
-
-document.getElementById('vowelButton').addEventListener('click', vowelCounter);
 
 function vowelCounter() {
 	// your code goes here!
@@ -63,11 +58,6 @@ function vowelCounter() {
 	For extra functionality, track the number of guesses the user has made, and print that as part of the result.
 */ 
 
-document.getElementById('numberSubmit').addEventListener('click', submit);
-document.getElementById('numberReset').addEventListener('click', reset);
-
-// your code will go here!
-
 function submit() {
 	
 }
@@ -76,3 +66,11 @@ function reset() {
 
 }
 
+
+/* click handlers */
+document.addEventListener('DOMContentLoaded', function() {
+	document.getElementById('additionButton').addEventListener('click', addition);
+	document.getElementById('vowelButton').addEventListener('click', vowelCounter);
+	document.getElementById('numberSubmit').addEventListener('click', submit);
+	document.getElementById('numberReset').addEventListener('click', reset);
+});

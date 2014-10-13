@@ -44,7 +44,7 @@ div.challenge p span:hover {
 	width: 400px;
 }
 
-#numberInput, #additionInput1, #additionInput2 {
+#numberGuess, #additionInput1, #additionInput2 {
 	width: 50px;
 }
 #numberResult {
